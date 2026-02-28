@@ -24,7 +24,7 @@ Putting all the bytes together, we get this password: `30656e6a27503c00`.
 From the explanation above, the password is just `30656e6a27503c00`.
 So, all there is to do is to input it exactly as the password, and the door will be unlocked.
 # Solution
-`30656e6a27503c00`
+Hex: `30656e6a27503c00`
 # Lesson from the Level
 Don't **ever** put your password (or any secret) directly in the code...
 That is, unless you *really* want to get hacked.
