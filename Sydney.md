@@ -1,7 +1,9 @@
 # Introduction
-This is the third level in the Microcorruption series.
+This is the **3rd** level in the Microcorruption series.
 This level is pretty much like the second level.
 It's also relatively easy to solve, not requiring any special exploiting techniques.
+# Vulnerability Title
+Password appears directly in the code.
 # Vulnerability
 The lock's password is (again) right in the code.
 Let's take a look at the `check_password` function:
@@ -38,6 +40,3 @@ Let's list all the 2-byte literals, but flipped:
 Now that they're all flipped correctly, we can put them all together for the final input: `5b293f5b577d437b`.
 # Solution
 Hex: `5b293f5b577d437b`
-# Lesson from the Level
-Don't **ever** put your password (or any secret) directly in the code...
-That is, unless you *really* want to get hacked.
