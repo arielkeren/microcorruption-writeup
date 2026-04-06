@@ -1,7 +1,9 @@
 # Introduction
-This is the second level in the Microcorruption series.
+This is the **2nd** level in the Microcorruption series.
 This level is a bit more difficult than the first level (Tutorial).
 But, it's still relatively easy to solve, not requiring any special exploiting techniques.
+# Vulnerability Title
+Password appears directly in the code.
 # Vulnerability
 The lock's password is right in the code.
 Let's take a look at the `create_password` function:
@@ -25,6 +27,3 @@ From the explanation above, the password is just `30656e6a27503c00`.
 So, all there is to do is to input it exactly as the password, and the door will be unlocked.
 # Solution
 Hex: `30656e6a27503c00`
-# Lesson from the Level
-Don't **ever** put your password (or any secret) directly in the code...
-That is, unless you *really* want to get hacked.
