@@ -1,5 +1,7 @@
 # Introduction
-This is the first level in the Microcorruption series, so it's pretty easy to solve.
+This is the **1st** level in the Microcorruption series, so it's pretty easy to solve.
+# Vulnerability Title
+Verification logic is easy to figure out.
 # Vulnerability
 The vulnerability exists in the `check_password` function.
 Essentially, the password-checking logic is very easy to understand and **break**.
@@ -73,6 +75,3 @@ To generate the hex input, I used this Python expression:
 ```python
 '1' * 16
 ```
-# Lesson from the Level
-Don't **ever** have simple password verification logic...
-That is, unless you *really* want to get hacked.
